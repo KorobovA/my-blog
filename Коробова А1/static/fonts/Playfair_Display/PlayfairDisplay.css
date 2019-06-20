@@ -1,0 +1,27 @@
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 700;
+  src:  url(./PlayfairDisplay-BoldItaic.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 700;
+  src:  url(./PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: italic;
+	font-weight: 400;
+  src:  url(./PlayfairDisplay-RegularItalic.ttf);
+}
+
+@font-face {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 400;
+  src:  url(./PlayfairDisplay-Regular.ttf);
+}
