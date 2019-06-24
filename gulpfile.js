@@ -65,13 +65,14 @@ function watch() {
   gulp.watch('./src/scss/**/*.scss', scss)
   //Следить за JS файлами
   gulp.watch('./src/js/*.js', js)
+  //Следить за Img файлами
+  gulp.watch('./src/image/*', img)
   //При изменении HTML запустить синхронизацию
   gulp.watch([
     "./src/html/components/*.html",
     "./src/html/pages/*.html"
   ], html).on('change', browserSync.reload);
 }
-
 gulp.task('scss', scss);
 gulp.task('js', js);
 gulp.task('html', html);
