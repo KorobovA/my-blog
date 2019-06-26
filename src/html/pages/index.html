@@ -4,6 +4,7 @@
   <link href="main.css" rel="stylesheet">
   <link rel="shortcut icon" href="./img/capital-letter-a.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap-reboot.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap" rel="stylesheet">
   <title>Анна К</title>
 </head>
 <body>
@@ -12,7 +13,7 @@
 
   <div class="info-block">
     <div class="container">
-        <h1 class="info-block__titel title">КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h1>
+        <h1 class="info-block_titel title">КРАТКАЯ ИНФОРМАЦИЯ ОБО МНЕ</h1>
         <p class="info-block__text"> Привет, меня зовут Аня! Люблю фотографию, воспитываю Тишину, увлекаюсь аэро-йогой и много гуляю пешком. </p>
     </div>
   </div>
@@ -20,19 +21,19 @@
   <div class="contacts">
       <div class="container">
         <div class= "contacts__content">
-          <h1 class="contacts_titel title">КОНТАКТЫ</h1>
+          <h1 class="contacts_titel title">контакты</h1>
           <div><a class="contacts__link"
              href="https://vk.com/vesssna" target="_blank"> Cсылка на VK </a> 
           </div>
-          <h3 class="instagram">
-            <a href="https://www.instagram.com/vesssna/"> Instagram </a>
-          </h3>
-          <h4 class="phone_number" > +7(917)964-17-00 </h4>
+          <div> <a class="contacts__link" href="https://www.instagram.com/vesssna/" target="_blank">Cсылка на Instagram </a> 
+          </div>
+          <div><a class="contacts__link" href="tel:+7(917)964-17-00">+7(917)964-17-00</a>
+          </div>
         </div>
       </div>
     </div> 
 
-    
+    @@include('./../components/footer.html')
 </body>
 <script src="script.js"></script>
 </html>

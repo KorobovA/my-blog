@@ -1,8 +1,10 @@
 .footer {
   background: #45B7E3;
-  font-weight: 300;
-  font-size: 48px;
-  text-align: right;
-  color: #fff;
   padding: 23px 0;
   }
+ .footer__copyright-text {
+  text-align: right;
+  color: #fff;
+  font-weight: 300;
+  font-size: 48px;
+ }
